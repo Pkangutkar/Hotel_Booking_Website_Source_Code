@@ -1,59 +1,36 @@
 <!DOCTYPE html>
 <html>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <container>
-        <style>
-            body{
-        height:100% ;
-        width: 100%;
-        margin:0%;
-        background-color: #e0e0e0;
-            }
-
-#logo{
-    width:60px;
-    height: 60px;
-}
-#img{
-    height:300px;
-    width:300px;
-    margin-top: 2%;
-    margin-left: 4%;
-    margin-right:4%;
-}
-#socialmedia{
-    height: 20px;
-    width: 22px;
-}
-#formmargin{
-    margin-left: 4%;
-    margin-right:4%;
-    margin-bottom: 1%;
-}
-#hotelinfomargin{
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 2%;
-}
-header{
- background-color: rosybrown;   
-}
-footer{
-    background-color: rosybrown;   
-}
-
-            </style>
-
-    <div>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/detail.css">
+   
+      
     <body>
 
-            <header>
-                <img src= "P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\assests\images\logo.png"   id="logo">
-           <a href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\login.html" target="_blank">Login</a>
+        <div class="main-container">
+            <header class="header-footer">
+            <div style="width: 100%; display: table;">
+                <div style="display: table-row; height: 50px;">
+                    <div style="width: 50px; display: table-cell; text-align: center;">
+                        <a href="index.html" target="_self">
+                            <img src="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\assests\images\logo.png"
+                                id="logo" /></a>
+                        
+                    </div>
+                    <div style="display: table-cell;">
+
+                    </div>
+                    <div style="width: 10%; display: table-cell; text-align: right; vertical-align:middle; padding-right: 10px;"
+                        class="text-right">
+                        <a class="loginstyle" text-align="center"
+                            href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\login.html" target="_self"
+                            style="color:#000000;">Login</a>
+                    </div>
+                </div>
+            </div>
         </header>
 
-   <div>
+   <div id="content div">
 
 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="img">
 
@@ -75,9 +52,9 @@ footer{
 
 <div id="hotelinfomargin">
 <h2>Raddison Blu Hotel</h2>
-<p>RATING</p>
-<P>5 Star</P>
-<p>AMENITIES</p>
+<h4>RATING</h4>
+<h4>5 Star</h4>
+<h4>AMENITIES</h4>
 <P>
     <ul>
         <li>Room service</li>
@@ -88,28 +65,41 @@ footer{
 
     </ul>
 </P>
-<h5>DESCRIPTION</h5>
-<p>Set in the bustling business district, this upmarket hotel is 2.3 km from Indira Gandhi International Airport. It’s also 4.8 km from shopping at Ambiance Mall and 11 km from live
-    entertainment at Kingdom of Dreams.</p>
-</div>
-</div>
+<h4>DESCRIPTION</h4>
+<h5 >Set in the bustling business district, this upmarket hotel is 2.3 km from Indira Gandhi International Airport. It’s also 4.8 km from shopping at Ambiance Mall and 11 km from live
+    entertainment at Kingdom of Dreams.</h5>
 
-         <footer>
-        <a href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\contact.html" target=_blank>Contact US</a>
-        <br>
-        <a href="https://www.facebook.com" target="_blank" >
-        <img src="assests/images/facebook.png" alt="Facebook"width="22" height="20">
-        </a>
-            <a href="https://www.instagram.com" target= "_blank">
-                <img src= "P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\assests\images\instagram.png" alt="Instagram"width="22" height="20">
+</div>
+</div>
+<br>
+        
+<footer class="header-footer">
+    <div style="width: 100%; display: table;">
+        <div style="display: table-row; height: 30px;">
+            <div style="width: 150px; display: table-cell; text-align: left; vertical-align:middle; padding-left: 10px;">
+                <a class="contactstyle"
+                    href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\contact.html" target=_self
+                    style="color:#000000;" id="">Contact US</a>
+            </div>
+            <div style="display: table-cell; vertical-align:bottom;">
+                <p>© 2020 ROOM SEARCH PVT.LTD</p>
+            </div>
+            <div style="width: 10%; display: table-cell; text-align: right; vertical-align:middle; padding-right: 10px;"
+                class="text-right">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="assests/images/facebook.png" alt="Facebook" id="socialmedia">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\assests\images\instagram.png"
+                        alt="Instagram" id="socialmedia">
                 </a>
                 <a href="https://twitter.com" target="_blank">
-                    <img src="assests/images/twitter.png" alt="Twitter"width="22" height="20">
-                    </a>
-                    <p>© 2020 ROOM SEARCH PVT.LTD</p>
-                </footer>
-
-   </body>
+                    <img src="assests/images/twitter.png" alt="Twitter" id="socialmedia">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
 </div>
-</container>
+</body>
 </html>

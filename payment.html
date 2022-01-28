@@ -1,104 +1,86 @@
 <!DOCTYPE html>
 <html>
+
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <container>
-        <style>
-            body{
-                background-color: #e0e0e0;
-                 height:100% ;
-                 width: 100%;
-                  margin:0%;
-            }
-        #logo{
-            width:60px;
-            height: 60px;
-        }
-        #img{
-            height:500px;
-            width:500px;
-        }
-        #hotelbackground{
-            margin-top:2%;
-            margin-bottom:2%;
-            margin-left: auto;
-            margin-right: auto;
-              background-color: rgb(132,136,139);
-               width: 50% ;
-               height:20%;
-              }
-            #margin{
-                  margin:2%;
-              }
-             #boxborder{ 
-             border: 1px solid black ;
-             border-radius:5%;
-            padding-left: 2%;
-            padding-right: 2%;
-            padding-top: 1%;
-            padding-bottom: 1%;
-             }
-        #socialmedia{
-            height: 20px;
-            width: 22px;
-        }
-        header{
- background-color: rosybrown;   
-}
-footer{
-    background-color: rosybrown;   
-}
-        </style>
-
-    <div>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/payment.css">
+   
+        
+   
     <body>
-      <header>
-            <a href="index.html" target="_self">
-        <img src= "P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\assests\images\logo.png" id ="logo"></a>
-        <a href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\login.html" target="_self">Login</a>
-    </header>
+        <div class="main-container">
+        <header class="header-footer">
+            <div style="width: 100%; display: table;">
+                <div style="display: table-row; height: 50px;">
+                    <div style="width: 50px; display: table-cell; text-align: center;">
+                        <a href="index.html" target="_self">
+                        <img src="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\assests\images\logo.png"
+                            id="logo" /></a>
+                    </div>
+                    <div style="display: table-cell;">
 
-
-
-   <div>
-
- <div id="hotelbackground">
+                    </div>
+                    <div style="width: 10%; display: table-cell; text-align: right; vertical-align:middle; padding-right: 10px;"
+                        class="text-right">
+                        <a class="loginstyle" text-align="center"
+                            href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\login.html" target="_self"
+                            style="color:#000000;">Login</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+   <div id= magin-top>
+ <div id="hotelbackground" >
 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="img">
 <h2>Radisson Blu Hotel</h2>
-<p>#38 of 1,289 hotels in New Delhi</p>
-<p>National Highway 8,New Delhi 110017 India</p>
+<h5>#38 of 1,289 hotels in New Delhi</h5>
+<h5>National Highway 8,New Delhi 110017 India</h5>
 </div>
-
-
  <div id="margin">
-<p><b>Name:</b>John Doe</p>
-<p><b>Number of Adults:</b>2</p>
-<p><b>Check-in Date:</b>06/06/2020</p>
-<p><b>Check-out Date:</b>08/06/2020</p>
-
+<h5>Name : <small> Doe</small></h5>
+<h5>Number of Adults: <small> 2</small></h5>
+<h5>Check-in Date:<small>  06/06/2020</small></h5>
+<h5>Check-out Date: <small> 08/06/2020</small></h5>
  <div id="boxborder">
-<p><b>Tariff Breakdown:</b>Rs.1000 x 2 Adults x 5 Nights</p>
-<p><b>Total Amount:</b>Rs.10000</p>
-<a href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\payment.html" target="_self"></a>
+<h5><b>Tariff Breakdown:</b>Rs.1000 x 2 Adults x 5 Nights<h5>
+<h5><b>Total Amount:</b>Rs.10000</h5>
 </div>
+</div>
+<div id= "payNow">
+<a class="text-decoration" href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\payment.html" target="_self" style="color: black;">Pay Now</a>
+
 </div>
          </div>
-
-
-    <footer>
-        <a href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\contact.html" target=_blank>Contact US</a>
-        <br>
-        <a href="https://www.facebook.com" target="_blank" >
-        <img src="assests/images/facebook.png" alt="Facebook" id="socialmedia">
-        </a>
-            <a href="https://www.instagram.com" target= "_blank">
-                <img src= "P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\assests\images\instagram.png" alt="Instagram" id="socialmedia">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="assests/images/twitter.png" alt="Twitter" id="socialmedia">
-                    </a>
-                    <p>© 2020 ROOM SEARCH PVT.LTD</p>
-                </footer>  
+      <br>
+         
+         <footer class="header-footer">
+            <div style="width: 100%; display: table;">
+                <div style="display: table-row; height: 30px;">
+                    <div style="width: 150px; display: table-cell; text-align: left; vertical-align:middle; padding-left: 10px;">
+                        <a class="contactstyle"
+                            href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\contact.html" target=_self
+                            style="color:#000000;" id="">Contact US</a>
+                    </div>
+                    <div style="display: table-cell; vertical-align:bottom;">
+                        <p>© 2020 ROOM SEARCH PVT.LTD</p>
+                    </div>
+                    <div style="width: 10%; display: table-cell; text-align: right; vertical-align:middle; padding-right: 10px;"
+                        class="text-right">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="assests/images/facebook.png" alt="Facebook" id="socialmedia">
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\assests\images\instagram.png"
+                                alt="Instagram" id="socialmedia">
+                        </a>
+                        <a href="https://twitter.com" target="_blank">
+                            <img src="assests/images/twitter.png" alt="Twitter" id="socialmedia">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
    </body>
-</div>
-</container>
+
 </html>

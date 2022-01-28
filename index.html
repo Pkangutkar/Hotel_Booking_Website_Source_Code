@@ -1,129 +1,20 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Index</title>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-<container>
-    <style>
-        body {
-            background-color: #e0e0e0;
-            height: 100%;
-            width: 100%;
-            margin: 0%;
-            font-family: Ubuntu, sans-serif;
-        }
-
-        #logo {
-            width: 60px;
-            height: 60px;
-            vertical-align: center;
-        }
-
-        #img {
-            height: 150px;
-            width: 150px;
-            padding: 4%;
-            border-radius: 25%;
-        }
-
-        #imagemargin {
-            margin-left: 15%;
-            margin-right: 15%
-        }
-
-        #socialmedia {
-            height: 20px;
-            width: 22px;
-        }
-
-        header {
-            background-color: rosybrown;
-        }
-
-        #backgroundimage {
-            background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            background-position: center;
-            height: 380px;
-        }
-
-        footer {
-            background-color: rosybrown;
-        }
-
-        p {
-            font-size: 10px;
-            text-align: center;
-        }
-
-        a.loginstyle:link {
-            color: black;
-            text-decoration: none;
-            text-align: right;
-        }
-
-        a.viewstyle:link {
-            text-decoration: none;
-
-            color: black;
-            margin: auto;
-            text-align: center;
-        }
-
-        a.contactstyle:link {
-            color: black;
-            text-decoration: none;
-        }
-
-        #searchbar {
-            background-color: #f1f1f1;
-            align-content: center;
-            margin: auto;
-            border: 1px solid transparent;
-            border-radius: 5px;
-            align-items: center;
-        }
+<link rel="stylesheet" href="styles/index.css">
+<link rel="stylesheet" href="styles/common.css">
+</head>
 
 
-        .text-center {
-            height: 200px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
 
-        .text-right {
-            height: 50px;
-            display: flex;
-            align-items: right;
-            justify-content: right;
-        }
 
-        .item {
-            width: 10em;
-        }
-
-        .fixed-header,
-        .fixed-footer {
-            width: 100%;
-            position: fixed;
-            background: rosybrown;
-            color: #fff;
-        }
-
-        .fixed-header {
-            top: 0;
-        }
-
-        .fixed-footer {
-            bottom: 0;
-        }
-    </style>
-
-    <div>
 
         <body>
-            <header>
-                <div style="width: 100%; display: table;" class="fixed-header">
+            <div class="main-container">
+                <header class="header-footer">
+                <div style="width: 100%; display: table;">
                     <div style="display: table-row; height: 50px;">
                         <div style="width: 50px; display: table-cell; text-align: center;">
                             <img src="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\assests\images\logo.png"
@@ -141,17 +32,19 @@
                     </div>
                 </div>
             </header>
+        
             
-            <div>
-                <div id="backgroundimage">
+          <div id="index-container">
+                <div id="backgroundimage"  >
                     <div class="text-center">
-                        <div class="item">
-                            <input id="searchbar" type="text" placeholder="City">
+                        <form autocomplete="off">
+                            <input id="searchbar"  type="text"placeholder="City">
+                        </form>
                         </div>
                     </div>
-                </div>
-                <br>
+            
                 <div id="imagemargin">
+                    
                     <a href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\list.html" target="_blank">
                         <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="Delhi"
                             id="img">
@@ -160,21 +53,23 @@
                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="Hydrabad"
                         id="img">
                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
-                        alt="Kolkata" id="img"><br>
-                </div>
-
+                        alt="Kolkata" id="img">
+              
+            
+                   <div  id="view-more" style="vertical-align: center;">
                 <a class="viewstyle" href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\index.html"
-                    target="_self">View
-                    more>></a>
-            </div>
-
-            <footer>
-                <div style="width: 100%; display: table;" class="fixed-footer">
+                    target="_self"  style="color: black;">View  more>></a> 
+                   </div>
+                </div>
+                   </div>
+               
+       <footer class="header-footer">
+                <div style="width: 100%; display: table;">
                     <div style="display: table-row; height: 30px;">
                         <div style="width: 150px; display: table-cell; text-align: left; vertical-align:middle; padding-left: 10px;">
                             <a class="contactstyle"
                                 href="P:\Upgrade\Hotel Booking\Hotel_Booking_Website_Code\contact.html" target=_self
-                                style="color:#000000;">Contact US</a>
+                                style="color:#000000;" id="">Contact US</a>
                         </div>
                         <div style="display: table-cell; vertical-align:bottom;">
                             <p>© 2020 ROOM SEARCH PVT.LTD</p>
@@ -195,8 +90,8 @@
                     </div>
                 </div>
             </footer>
+        </div>
         </body>
-    </div>
-</container>
+   
 
 </html>

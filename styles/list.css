@@ -1,0 +1,119 @@
+
+
+#hotelbackground {
+    margin:3%;
+    background-color: rgb(132, 136, 139);
+    width: 40%;
+   float:left;
+   padding-right: 3%;
+   
+
+
+  
+   
+   
+  
+   
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    vertical-align: center;
+}
+
+#imagesize {
+    height: 200px;
+    width: 250px;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+}
+
+a.loginstyle:link {
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+
+a.viewstyle:link {
+    text-decoration: none;
+
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+a.contactstyle:link {
+    color: black;
+    text-decoration: none;
+}
+
+.text-list-view-header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-right {
+    height: 50px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.item {
+    width: 10em;
+} 
+
+#text-decoration{
+    text-decoration: none;
+}
+#list-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+#list-view{
+    justify-items: center;
+   display: flex;
+   position: absolute;
+   left: 42%;
+    justify-content: center;
+}
+#map-view {
+    position: absolute;
+    left: 50%;
+    justify-items: center;
+   justify-content: center;
+}
+#float-container{
+    height: 100%;
+    width: 100%;
+    padding-top:1%;
+    padding-bottom: 12%;
+  
+ 
+   
+    
+}
+#text-decoration{
+    text-decoration: none;
+    color: black;
+}
+#mapimage{
+    display: none;
+}
+
