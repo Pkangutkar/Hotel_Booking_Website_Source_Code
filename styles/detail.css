@@ -1,8 +1,4 @@
-#formmargin{
-    margin-left: 4%;
-    margin-right:4%;
-    margin-bottom: 1%;
-}
+
 #hotelinfomargin{
     margin-top: 1%;
     margin-left: 4%;
@@ -10,21 +6,58 @@
     margin-bottom: 4%;
 }
 
+#image-container,#Booking-form {
+    padding: 1%;
+    text-align: center;
+    border: 1px solid black;
+    max-height: 400px;
+    margin-top: 7%;
+
+}
+#image-container{
+    margin-left: 2% ;
+    border-right: none;
+    flex-grow: 3;
+    max-width: 60%;
+;
+}
+
+#Booking-form{
+margin-right: 2%;
+flex-grow: 1;
+}
         #copyright{
             font-size: 10px;
             text-align: center;
             color: #000000;
         }
         #img{
-            height:500px;
-            width:500px;
-            margin-top: 6%;
-            margin-left: 4%;
-            margin-right:4%;
+            height:350px;
+            width:350px;
+           margin: auto;
         }
         #content-div{
-            padding-bottom: 15%;
+            margin-top:7%;
+            margin-bottom: 7%;
+        }
+        #Hotel-booking{
             display: flex;
-            flex-direction: column;
+            justify-content: start;
+            align-content: center;
           
+        }
+        .outer {
+            padding: 3%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #book-now {
+            margin-top: 5%;
+        }
+        .inner {
+            width: 60%;
+        }
+        #font{
+            font-size: 15px;
+            text-align: left;
         }
