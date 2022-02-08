@@ -71,8 +71,10 @@ a.contactstyle:link {
 }
 #logo {
     width: 60px;
-    height: 60px;
+    height: 100%;
     vertical-align: center;
+    margin-left: 4%;
+    padding-left: 3%;
 }
 p {
     font-size: 10px;
@@ -80,4 +82,24 @@ p {
     color: #000000;
     margin-top: 1.6%;
   
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+.login-field {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+}
+#login-button {
+    margin: auto;
+}
+.checked {
+    color: orange;
+}
+#form-size{
+    font-size: 16px;
+    text-align: left;
 }

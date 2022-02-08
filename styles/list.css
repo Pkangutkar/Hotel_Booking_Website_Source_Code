@@ -9,7 +9,10 @@
     justify-content: start;
     align-content: center;
    }
-
+   
+   #hotelbackground:hover {
+    background-color: rosybrown;
+}
 #logo {
     width: 60px;
     height: 60px;
@@ -36,9 +39,7 @@
     width: 10em;
 } 
 
-#text-decoration{
-    text-decoration: none;
-}
+
 #list-container {
     position: relative;
     height: 100%;
@@ -52,12 +53,14 @@
    position: absolute;
    left: 42%;
     justify-content: center;
+    text-decoration: none;
 }
 #map-view {
     position: absolute;
     left: 50%;
     justify-items: center;
    justify-content: center;
+   text-decoration: none;
 }
 #float-container{
     height: 100%;
@@ -73,10 +76,16 @@
     text-decoration: none;
     color: black;
 }
-#mapimage{
-    display: none;
-}
+
 #info-margin{
     margin-left:3%;
+}
+#list-map {
+    position: relative;
+    top: 0%;
+}
+
+#pills-tab {
+    justify-content: center;
 }
 

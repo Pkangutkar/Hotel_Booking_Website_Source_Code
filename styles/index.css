@@ -47,7 +47,7 @@ a.viewstyle:link {
     font-size: 16px;
     border-radius: 12px;
     width: 100%;
-    position: absolute;
+
    
 }
 #searchbar:focus {
@@ -81,7 +81,15 @@ a.viewstyle:link {
    display: flex;
  margin-bottom: 7%;
     justify-content: center;
+    text-decoration: none;
    
 }
-
+.text-center {
+    position: absolute;
+    top: 50%;
+    left: 20%; 
+    right: 36%;
+    bottom: 50%;
+   
+}
 
